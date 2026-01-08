@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: "Times New Roman", serif;
+}
+
+/* HEADER */
+.header {
+    display: flex;
+    align-items: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.profile-box img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.title-box {
+    flex: 1;
+    text-align: center;
+}
+
+.title-box h1 {
+    margin: 0;
+}
+
+.title-box h2 {
+    margin-top: 10px;
+}
+
+/* NAV BAR */
+.navbar {
+    background: black;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENT */
+.content {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-img {
+    width: 300px;
+    margin-top: 40px;
+}
+
+/* FOOTER */
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
